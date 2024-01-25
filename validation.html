@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foem validation</title>
+    <link herf="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Register Here</h2>
+        </div>
+        <form action="validation.html" class="form" id="form">
+            <div class="field">
+                <label >Username</label>
+                <input type="text" placeholder="User" id="uname">
+                <span class="material-icons success"> check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field ">
+                <label>Email</label>
+                <input type="email" placeholder="@gmail.com" id="email">
+                <span class="material-icons success "> check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <input type="password" placeholder="password" id="password">
+                <span class="material-icons success"> check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            
+            <div class="field">
+                <input type="checkbox" id="tc" class="terms" >
+                <label>I agree to terms and conditions</label>               
+                <small>Error message</small>
+            </div>
+            <input type="submit" class="button">
+        </form>
+    </div>
+    <script src="validation.js"></script>  
+
+</body>
+</html>
